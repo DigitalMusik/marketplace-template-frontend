@@ -1,11 +1,11 @@
 .top-info-bar {
-  background-color: #0f9aa7;
+  background-color: #10959C;
   color: #fff;
   font-size: 14px;
 }
 
 .search-bar {
-  background-color: #0f9aa7;
+  background-color: #10959C;
 }
 
 .search-bar .form-control,
@@ -45,7 +45,7 @@
 
 .mega-left .nav-link.active {
   background: #f5f5f5;
-  color: #0f9aa7;
+  color: #10959C;
 }
 
 .mega-right h6 {
@@ -64,7 +64,7 @@
 }
 
 .mega-right a:hover {
-  color: #0f9aa7;
+  color: #10959C;
 }
 
 .kategori-btn {
@@ -125,7 +125,7 @@
 }
 
 .promo-left {
-  background: linear-gradient(135deg, #0f9aa7, #0b6f78);
+  background: linear-gradient(135deg, #10959C, #0b6f78);
 }
 
 .promo-right {
@@ -141,4 +141,142 @@
 .promo-right .promo-content {
   right: 20px;
   left: auto;
+}
+
+/* flash sale */
+.flash-sale-section {
+  background-color: #f7f2e9;
+  background-image: url("../img/background\ -\ Toko\ speaker\ profesional\ untuk\ berbagai\ keperluanToko\ speaker\ profesional\ untuk\ berbagai\ keperluan.png");
+  background-size: cover;
+  background-position: center;
+}
+.flash-sale-track {
+  transition: transform 0.5s ease;
+}
+
+.flash-item {
+  flex: 0 0 calc(25% - 12px); /* 4 item */
+}
+
+.flash-prev,
+.flash-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #000;
+  color: #fff;
+  border: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.flash-prev {
+  left: -10px;
+}
+.flash-next {
+  right: -10px;
+}
+
+.product-card {
+  background: #fff;
+  padding: 14px;
+  border-radius: 10px;
+  text-align: center;
+  height: 100%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.product-card img {
+  border-radius: 6px;
+}
+
+.product-card h6 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.price {
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.old-price {
+  font-size: 13px;
+  color: #999;
+}
+
+.old-price span {
+  color: #e6391a;
+  font-weight: bold;
+}
+
+/* suggest today */
+.product-card {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.card-img {
+    position: relative;
+    padding: 10px;
+    text-align: center;
+}
+
+.card-img img {
+    max-height: 130px;
+    object-fit: contain;
+}
+
+.badge {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    font-size: 10px;
+    padding: 3px 6px;
+    border-radius: 6px;
+    color: #fff;
+}
+
+.badge-blue { background: #4f46e5; top: 28px; }
+.badge-red { background: #ef4444; }
+.badge-green { background: #22c55e; }
+
+.wishlist {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    border: none;
+    background: #fff;
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.product-title {
+    font-size: 13px;
+    margin-bottom: 4px;
+}
+
+.rating {
+    font-size: 12px;
+    color: #f59e0b;
+}
+
+.price {
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.price .old {
+    text-decoration: line-through;
+    font-size: 11px;
+    color: #999;
+    margin-left: 4px;
 }
