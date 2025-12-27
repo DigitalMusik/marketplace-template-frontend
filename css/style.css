@@ -760,7 +760,6 @@
 }
 
 .video-thumb::after {
-  content: "VIDEO";
   position: absolute;
   bottom: 4px;
   font-size: 9px;
