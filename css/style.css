@@ -1017,6 +1017,165 @@
   min-height: 450px;
   border: 0;
 }
+.cart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 12px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.cart-actions a {
+  font-size: 13px;
+  margin-left: 12px;
+  text-decoration: none;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.cart-img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+
+.cart-info {
+  flex: 1;
+}
+
+.cart-info h6 {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.price {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.price span {
+  font-size: 12px;
+  text-decoration: line-through;
+  color: #999;
+  margin-left: 6px;
+}
+
+.discount {
+  color: #ef4444;
+  font-weight: 600;
+  margin-left: 4px;
+}
+
+.stock-link {
+  font-size: 12px;
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.cart-qty {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.cart-qty button {
+  width: 28px;
+  border: none;
+  background: #fff;
+}
+
+.cart-qty input {
+  width: 36px;
+  text-align: center;
+  border: none;
+}
+
+.cart-total {
+  font-weight: 600;
+  min-width: 80px;
+  text-align: right;
+}
+
+.cart-icons {
+  font-size: 18px;
+  color: #888;
+}
+
+.cart-summary {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 8px;
+  padding: 4px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.summary-row:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+.cart-summary {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 16px;
+}
+
+.summary-section {
+    margin-bottom: 8px;
+}
+
+.summary-title {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.summary-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-bottom: 6px;
+}
+
+.summary-row.total {
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.payment-method {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.payment-method input {
+    margin-right: 6px;
+}
+
 
 @media (max-width: 768px) {
   .product-card {
