@@ -1232,6 +1232,57 @@
 .hapus {
   display: hidden;
 }
+.about-hero {
+  padding: 80px 0;
+}
+
+.about-hero span {
+  color: #0F9AA7;
+}
+
+.about-section {
+  padding: 60px 0;
+}
+
+.vision-mission {
+  background: #f8f9fb;
+  padding: 60px 0;
+}
+
+.vm-box {
+  background: #fff;
+  border-radius: 12px;
+  padding: 24px;
+  height: 100%;
+}
+
+.why-us {
+  padding: 60px 0;
+}
+
+.why-box {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 20px;
+  height: 100%;
+}
+
+.about-stats {
+  background: #0f9aa7;
+  color: #fff;
+  padding: 60px 0;
+}
+
+.about-stats h3 {
+  font-size: 32px;
+  margin-bottom: 4px;
+}
+
+.about-cta {
+  padding: 60px 0;
+  background: #f8f9fb;
+}
 
 @media (max-width: 768px) {
   .cart-qty {
