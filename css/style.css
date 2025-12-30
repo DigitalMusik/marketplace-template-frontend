@@ -293,7 +293,7 @@
 
 .badge {
   font-size: 10px;
-  padding:  6px;
+  padding: 6px;
   border-radius: 6px;
   color: #fff;
 }
@@ -1426,6 +1426,81 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.order-tracking {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.track-step {
+  flex: 1;
+  position: relative;
+}
+
+.track-step::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: -50%;
+  width: 100%;
+  height: 2px;
+  background: #ddd;
+  z-index: 0;
+}
+
+.track-step:last-child::after {
+  display: none;
+}
+
+.track-step .dot {
+  width: 14px;
+  height: 14px;
+  background: #ddd;
+  border-radius: 50%;
+  display: inline-block;
+  z-index: 1;
+  position: relative;
+}
+
+.track-step.active .dot {
+  background: #22c55e;
+}
+
+.track-step p {
+  font-size: 12px;
+  margin-top: 6px;
+}
+
+.order-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-bottom: 1px solid #eee;
+  padding: 12px 0;
+}
+
+.order-item:last-child {
+  border-bottom: none;
+}
+
+.order-item img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.info-box {
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 14px;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-bottom: 4px;
 }
 
 @media (max-width: 768px) {
